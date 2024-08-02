@@ -7,14 +7,26 @@ body {
     background-color: #101010;
     color: #333;
 }
-img.resize{
+.link{
+    color: #004494;
+}
+.link:hover{
+    color: #333;
+}
+.resize{
     max-width: 30%;
     max-height: 30%;
     display: block;
     padding-right: 2em;
 }
+.resize:hover{
+    cursor: not-allowed;
+}
 div{
-    font-weight: bold;
+    font-weight: normal;
+}
+.skillslist{
+    list-style-type: circle;
 }
 .resume-button {
     background: #0056b3;
@@ -41,6 +53,7 @@ div{
 
 .nav-item {
     margin-left: 5rem;
+    list-style: none;
 }
 
 .nav-link{
@@ -98,9 +111,9 @@ h1, h2 {
     margin-top: 3em;
     cursor: pointer;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
+.list {
+    list-style-type: circle;
+    padding-left: 3em;
 }
 nav {
     background: #0056b3;
@@ -127,10 +140,10 @@ nav a {
 .toggle-button:hover {
     background: #004494;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1400px) {
     .nav-menu {
         position: fixed;
-        left: -100%;
+        left: -200%;
         top: 5rem;
         flex-direction: column;
         background-color: #fff;
