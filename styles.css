@@ -187,3 +187,14 @@ nav a {
     }
 
 }
+@media (max-width: 600px) {
+    .imageinfo{
+        flex-direction: column;
+    }
+    .resize{
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
